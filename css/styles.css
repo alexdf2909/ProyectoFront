@@ -1,0 +1,569 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*botonV1*/
+.buttonV1 {
+    background-color: #8B48BF;
+    height: 44px;
+    width: 8.4rem;
+    border-radius: 50px;
+    border: 0;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+    font-size: .8rem;
+    font-weight: 500;
+    color: white;
+}
+
+.buttonV1:hover {
+    background-color: #8B48BFB2;
+}
+
+/*Header*/
+
+
+header {
+    padding: 4.06rem 11.45%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    width: 35.75%;
+}
+
+.navbar ul {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar li {
+    list-style: none;
+}
+
+.navbar a {
+    font-size: 0.81rem;
+    color: #242E52;
+}
+
+.navbar a:hover {
+    color: rgba(36, 46, 82, 0.60);
+}
+
+.iconMenu {
+    display: none;
+    font-size: 60px;
+    color: #000000;
+}
+
+/*Main*/
+/*banner*/
+.banner {
+    padding: 6.1% 12.5%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner img {
+    width: 49.5%;
+    max-width: 540px;
+}
+
+.bannerEvento {
+    width: 42%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+    text-align: right;
+}
+
+.bannerEvento h1 {
+    font-size: 2.9rem;
+    font-weight: 700;
+    color: #232C50;
+    line-height: 57.3px;
+}
+
+.bannerEvento p {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 26.01px;
+}
+
+/*What's different between pros?*/
+
+.pregunta {
+    background-color: #8B48BF;
+    height: 168px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pregunta h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    max-width: 450px;
+    width: 32%;
+    margin-left: 15.2%;
+    line-height: 41.26px;
+}
+
+.pregunta p {
+    font-size: 1rem;
+    font-weight: 500;
+    max-width: 450px;
+    width: 32%;
+    margin-right: 15.2%;
+    line-height: 24.18px;
+}
+
+.pregunta p::after {
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.\aMaecenas aliquet consequat purus sit amet sodales. In\a faucibus ut nisi eu dignissim. Vestibulum fringilla velit sed\atincidunt tincidunt.";
+    white-space: pre;
+}
+
+/*respuesta*/
+
+.respuesta {
+    height: 428px;
+    padding: 40px 7.3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.respuesta .tarjeta {
+    height: 158px;
+    width: 44.4%;
+}
+
+.respuesta .numTitulo {
+    display: flex;
+    align-items: center;
+}
+
+.respuesta .numTitulo button {
+    width: 69px;
+    font-size: 1rem;
+    box-shadow: none;
+}
+
+.respuesta .numTitulo button:hover {
+    background-color: #8B48BF;
+}
+
+.respuesta .numTitulo h6 {
+    color: #323851;
+    font-size: 1rem;
+    margin-left: 15px;
+}
+
+.respuesta .tarjeta p {
+    color: #B3B2B7;
+    margin-left: 84px;
+    line-height: 156.6%;
+    /* 25.523px */
+    letter-spacing: -0.163px;
+}
+
+/*Best of the month*/
+.mejoresMes {
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mejoresMes h2 {
+    margin-top: 97px;
+    font-size: 2.44rem;
+    color: #242E53;
+}
+
+.mejoresDeportistas {
+    padding: 0 6.4%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.deportista {
+    height: 237px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.deportista h6 {
+    font-weight: 700;
+    font-size: 1rem;
+    color: #3F4868;
+}
+
+.deportista:last-of-type h6 {
+    color: #242E53;
+}
+
+.deportista p {
+    color: #B9B9C1;
+    text-align: center;
+    font-weight: 500;
+    width: 100%;
+    line-height: 25.056px;
+}
+
+.mejoresMes button {
+    margin-bottom: 180px;
+}
+
+/*Get to know*/
+.conocer {
+    background-color: #8B48BF;
+    color: white;
+    display: flex;
+    height: 224px;
+    align-items: center;
+    padding: 64px 14.6% 64px 11.4%;
+    justify-content: space-between;
+}
+
+.conocer h2 {
+    font-size: 2.5rem;
+    width: 40%;
+    font-weight: 700;
+}
+
+.buttonV2 {
+    background-color: white;
+    color: #8B48BF;
+    height: 44px;
+    width: 8.4rem;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+}
+
+.buttonV2:hover {
+    background-color: #ffffff83;
+}
+
+/*footer*/
+footer {
+    display: flex;
+    background: #1E1E26;
+    height: 247px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 52px 11.4% 43px 11.8%;
+    align-items: flex-start;
+}
+
+.iconos {
+    width: 13.8%;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.iconos i {
+    color: white;
+}
+
+
+.lista {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 141px;
+    width: 35.4%;
+    padding: 10px;
+    align-self: center;
+}
+
+.lista .columna {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    justify-content: start;
+}
+
+.lista .columna li {
+    margin-bottom: 12px;
+}
+
+.lista a {
+    color: #FFF;
+    font-weight: 400;
+}
+
+.lista a:hover {
+    color: #ffffffbe;
+}
+
+
+form {
+    display: flex;
+    justify-content: space-between;
+    width: 24.7%;
+    align-self: flex-end;
+}
+
+form input {
+    height: 44px;
+    border-radius: 50px;
+    padding: 10px;
+    font-size: 0.8rem;
+    border: none;
+
+}
+
+form .buttonV1 {
+    width: 23%;
+    background-color: #8B48BF;
+    color: white;
+    font-size: 0.8rem;
+}
+
+span {
+    align-self: flex-end;
+    font-size: 0.75rem;
+    color: #8C8C94;
+    text-align: right;
+
+}
+
+
+
+
+
+
+
+/*Breakpoints*/
+@media(max-width: 480px) {
+
+    /*header*/
+    header {
+        padding: 2.5rem 11.72%;
+    }
+
+    .navbar,
+    header .buttonV1 {
+        display: none;
+        overflow: hidden;
+    }
+
+    .iconMenu {
+        display: block;
+    }
+
+    /*main*/
+    /*banner*/
+    .banner {
+        height: 888px;
+        padding: 1.5rem 8.33% 2.5rem 8.33%;
+        flex-direction: column;
+    }
+
+    .banner img {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .bannerEvento {
+        width: 100%;
+    }
+
+    /*What's different between pros?*/
+
+    .pregunta {
+        padding: 40px 20px;
+        background-color: #3CDDF3;
+        height: 306px;
+        flex-direction: column;
+    }
+
+    .pregunta h2 {
+        font-size: 2.25rem;
+        max-width: none;
+        width: 100%;
+        margin-left: 0;
+        line-height: 114.6%;
+        /* 41.256px */
+    }
+
+    .pregunta p {
+        font-size: 1rem;
+        max-width: none;
+        width: 100%;
+        margin-right: 0;
+        line-height: 151.1%;
+        /* 24.176px */
+    }
+
+    .pregunta p::after {
+        content: "Manage provides all the functionality your\ateas needs, without the complexity. Our software is\atailor-made for modern digital product teams";
+    }
+
+    /*respuesta*/
+
+    .respuesta {
+        height: 805px;
+        padding: 65px 0 58px 7.08%;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+
+    .respuesta .tarjeta {
+        height: 214px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .respuesta .numTitulo {
+        border-radius: 50px 0px 0px 50px;
+        background: rgba(139, 72, 191, 0.30);
+    }
+
+    .respuesta .numTitulo button {
+        width: 73px;
+    }
+
+    .respuesta .numTitulo h6 {
+        margin-left: 18px;
+    }
+
+    .respuesta .tarjeta p {
+        font-size: 1.01rem;
+        font-weight: 500;
+        margin-left: 0;
+        padding: 10px;
+    }
+
+    /*Best of the month*/
+    .mejoresMes {
+        height: 536px;
+        padding: 0 9.375% 58px 9.375%;
+    }
+
+    .mejoresMes h2 {
+        margin-top: 0;
+    }
+
+    .mejoresDeportistas {
+        padding: 0;
+        flex-direction: column;
+        height: 221px;
+    }
+
+    .deportista {
+        height: 221px;
+    }
+
+    .deportista:nth-of-type(2n+1) {
+        display: none;
+    }
+
+    .deportista h6 {
+        line-height: 156.6%;
+        /* 25.168px */
+        letter-spacing: -0.161px;
+    }
+
+    .deportista p {
+        font-size: 0.9rem;
+        line-height: 156.6%;
+        /* 25.056px */
+    }
+
+    .mejoresMes button {
+        margin-bottom: 0;
+    }
+
+    /*Get to know*/
+    .conocer {
+        background-color: #3CDDF3;
+        flex-direction: column;
+        height: 366px;
+        padding: 40px 16.25%;
+    }
+
+    .conocer h2 {
+        color: white;
+        width: 100%;
+        text-align: center;
+    }
+
+    .buttonV2 {
+        background: #232C50;
+        color: white;
+        font-size: 0.82rem;
+        width: 134px;
+    }
+
+
+    /*footer*/
+    footer {
+        height: 535px;
+        flex-direction: column-reverse;
+        flex-wrap: nowrap;
+        padding: 40px 0;
+        align-items: center;
+    }
+
+
+    .iconos {
+        width: 100%;
+        margin-bottom: 0;
+        padding: 10px 10.41%;
+        height: 42.054px;
+    }
+
+    .lista {
+        height: 161px;
+        width: 71.6%;
+    }
+
+
+    form {
+        width: 100%;
+        padding: 10px 50px;
+    }
+
+    form input {
+        width: 100%;
+    }
+
+    form .buttonV1 {
+        width: 63px;
+        margin-left: 9px;
+    }
+
+    span {
+        align-self: center;
+        text-align: center;
+        order: -1;
+    }
+
+}
